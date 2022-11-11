@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Barra de navegação */
+#logo-navbar {
+    width: 100px;
+    margin-left: 200px;
+}
+
+.navbar{
+    background-color: #000000;
+}
+.navbar a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.nav-item a:hover{
+    color: #3C1DBA;   
+    transition: 0.5s;
+}
+
+.navbar-nav{
+    padding-right: 50px;
+}
+.navbar-nav .nav-item {
+    padding-right: 1em;
+}
+
+/* Section Home */
+.home{
+    padding-top: 200px;
+}
+.home img {
+    width: 550px;
+    height: 550px;
+}
+.text-boa{
+  padding-bottom: 50px;
+}
+.container .btn-cont{
+    background-color: #3C1DBA;
+    color: #ffffff;
+    border: none;
+}
+.btn-cont:hover{
+    background-color:#4277FF; 
+    transition: 0.5s;
+}
+
