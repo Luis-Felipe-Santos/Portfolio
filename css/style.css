@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 /* Barra de navegação */
 #logo-navbar {
@@ -17,6 +19,7 @@
 .navbar a{
     color: #ffffff;
     font-size: 20px;
+
 }
 .nav-item a:hover{
     color: #3C1DBA;   
@@ -35,19 +38,96 @@
     padding-top: 200px;
 }
 .home img {
-    width: 550px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
+    border-bottom-left-radius: 200px;
+
 }
 .text-boa{
   padding-bottom: 50px;
+
 }
-.container .btn-cont{
+.container .btn-cont1{
     background-color: #3C1DBA;
     color: #ffffff;
-    border: none;
+    padding: 10px;
+    font-weight: bold;
 }
-.btn-cont:hover{
+.container .btn-cont2{
+    background-color: #3C1DBA;
+    color: #ffffff;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.btn-cont1:hover, .btn-cont2:hover{
     background-color:#4277FF; 
     transition: 0.5s;
 }
 
+.container .text-boa {
+    color: #4277FF;
+
+}
+.container .text-ola {
+    color: #3C1DBA;
+    font-weight: bold;
+}
+.container .text-dev {
+    color: #000000;
+    font-weight: bold;
+}
+
+.container-sobre {
+    background-color: #4277FF;
+    margin-top: 10px;
+}
+.container-sobre h2 {
+    color: #ffffff;
+}
+.portfolio{
+    background-color: #ffffff;
+}
+.portfolio h2{
+  color: #000000;
+}
+.portfolio .btn-card1{
+    background-color: #3C1DBA;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+}
+.portfolio .btn-card2{
+    background-color: #3C1DBA;
+    color: #ffffff;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.btn-card1:hover, .btn-card2:hover{
+    background-color:#4277FF; 
+    transition: 0.5s;
+}
+.tecnologias{
+    background-color: #4277FF;
+
+}
+.tecnologias h2{
+    color: #ffffff;
+
+}
+.contato{
+    background-color: #ffffff;
+
+}
+.contato h2{
+    color: #000000;
+}
+
+.contato .btn-form{
+    background-color: #3C1DBA;
+    color: #ffffff;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
