@@ -1,2 +1,2 @@
 # Portfolio
-Desafio 1 - Residencia em Fron-End
+Desafio 1 - Residencia em Front-End
