@@ -32,12 +32,16 @@ html{
 .navbar-nav .nav-item {
     padding-right: 1em;
 }
+#nav-menu{
+    color: #ffffff;
+    font-size: 28px;
+}
 
 /* Section Home */
-.home{
+.container{
     padding-top: 200px;
 }
-.home img {
+.container img {
     width: 450px;
     height: 450px;
     border-bottom-left-radius: 200px;
@@ -48,6 +52,7 @@ html{
   color: #4277FF;
 
 }
+
 .container .btn-cont1{
     background-color: #3C1DBA;
     color: #ffffff;
@@ -141,7 +146,7 @@ footer {
     color: #ffffff;
 
 }
-.footer .redes {
-    color: #ffffff;
+.redes {
+    font-size: 22px;
 }
 

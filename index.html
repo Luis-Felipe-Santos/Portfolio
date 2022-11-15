@@ -18,25 +18,27 @@
         <header class="header-menu">
                 <nav class="navbar navbar-expand-lg fixed-top">
                     <div class="container-fluid">
-                      <a class="navbar-brand " href="#">
+                      <a class="navbar-brand " href="#home">
                         <img id="logo-navbar" src="assets/img/logo.png"  alt="logo luis menu">
                       </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon">
+                          <i class="bi bi-list" id="nav-menu"></i>
+                        </span>
                       </button>
                       <div class="collapse navbar-collapse justify-content-end" id="navbar-nav">
                         <ul class="navbar-nav ms-auto">
                           <li class="nav-item">
-                            <a class="nav-link"  href="#home">Home</a>
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link "  href="#sobre">Sobre</a>
+                            <a class="nav-link" href="#sobre">Sobre</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link "  href="#portfolio">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link "  href="#contato">Contato</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                           </li>
                         </ul>
                       </div>
@@ -44,33 +46,32 @@
                   </nav>
         </header>
         <main class="container-geral">
-        <section class="home d-flex align-items-center h-75 pb-5"  id="home">
-            <div class="container">
+        <section id="home">
+            <div class="container  d-flex align-items-center h-75 pb-5">
                 <div class="row d-flex align-items-center">
                     <div class="col-xl-4">
                         <h2 class="text-boa">Seja Bem Vindo</h2>
                         <h1 class="text-ola">Olá! Sou o Luis Felipe</h1>
-                        <h1 class="text-dev"><font color='#3C1DBA'>Desenvolvedor</font> Front-End</h1>
+                        <h1 class="text-dev">Desenvolvedor Front-End</h1>
                         <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <button class="btn btn-cont1  px-3">Contato</button>
+                        <button class="btn btn-cont1  px-3" >Contato</button>
                         <button class="btn btn-cont2  px-3">Download CV</button>
                     </div>
                     <div class="col-xl-8 d-flex justify-content-end">
                         <img src="assets/img/lipe.jpg" class="img-fluid" alt="img-home">
                     </div>
-                    
                 </div>
             </div> 
         </section>
-        <section class="sobre mb-5 pb-5">
-            <div class="container">
-              <h2 class="text-center pt-5 pb-3" id="sobre">Sobre</h2>
+        <section  id="sobre">
+            <div class="container sobre mb-5 pt-3 pb-5">
+              <h2 class="text-center pt-5 pb-3">Sobre</h2>
               <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
               <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </section>
-        <section class="portfolio pb-5 pt-5" id="portfolio">
-          <div class="container">
+        <section id="portfolio">
+          <div class="container portfolio mb-5 pb-5 pt-3">
             <h2 class="text-center pb-3">Portfolio</h2>
             <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <div class="row">
@@ -109,14 +110,14 @@
             </div>
            </div>
         </section>
-        <section class="tecnologias pb-5 pt-5" id="tecnologias">
-            <div class="container">
+        <section id="tecnologias">
+            <div class="container tecnologias mb-5 pb-5 pt-3">
               <h2 class="text-center pb-3">Tecnologias</h2>
               <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </section>
-        <section class="contato pb-5 pt-5" id="contato">
-          <div class="container">
+        <section id="contato">
+          <div class="container contato mb-5 pb-5 pt-3">
             <h2 class="text-center pb-3">Contato</h2>
             <form class="form">
               <div class="text-form-nome">
@@ -150,7 +151,7 @@
         </section>
         </main>
         <footer class="footer" id="footer">
-              <span class="text-rodape d-flex justify-content-center pt-3 pb-3">&copy; 2022 Luis Felipe dos Santos - Todos os direitos reservados.</span>
+              <span class="text-rodape d-flex justify-content-center pt-4 pb-3">&copy; 2022 Luis Felipe dos Santos - Todos os direitos reservados.</span>
               <div class="redes d-flex justify-content-center pb-3">
               <a href="https://www.linkedin.com/in/luis-felipe-dos-santos-b97659178/" target="_blank"><i class="bi bi-linkedin me-4" ></i></a>
               <a href="https://www.instagram.com/lypessantos/" target="_blank"><i class="bi bi-instagram me-4"></i></a>
@@ -168,5 +169,7 @@
       integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/script.js"></script>
+
   </body>
 </html>
