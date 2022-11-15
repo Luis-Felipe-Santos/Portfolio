@@ -45,6 +45,7 @@ html{
 }
 .text-boa{
   padding-bottom: 50px;
+  color: #4277FF;
 
 }
 .container .btn-cont1{
@@ -65,10 +66,6 @@ html{
     transition: 0.5s;
 }
 
-.container .text-boa {
-    color: #4277FF;
-
-}
 .container .text-ola {
     color: #3C1DBA;
     font-weight: bold;
@@ -78,11 +75,14 @@ html{
     font-weight: bold;
 }
 
-.container-sobre {
-    background-color: #4277FF;
+.container-geral {
     margin-top: 10px;
 }
-.container-sobre h2 {
+.sobre{
+    background-color: #4277FF;
+}
+
+.sobre h2 {
     color: #ffffff;
 }
 .portfolio{
@@ -131,3 +131,17 @@ html{
     padding: 10px;
     font-weight: bold;
 }
+.form #form-nome, #form-email, #form-telefone, #Textarea {
+    min-width: 300px;
+  }
+footer {
+    background-color: #000000;
+}
+.footer .text-rodape{
+    color: #ffffff;
+
+}
+.footer .redes {
+    color: #ffffff;
+}
+
