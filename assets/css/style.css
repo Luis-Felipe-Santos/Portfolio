@@ -6,10 +6,9 @@
 html{
     scroll-behavior: smooth;
 }
-
 /* Barra de navegação */
 #logo-navbar {
-    width: 100px;
+    width: 60px;
     margin-left: 200px;
 }
 
@@ -21,18 +20,14 @@ html{
     font-size: 20px;
 }
 .navbar-nav .nav-link.active{
-    color: #ffffff;
-}
-.nav-item .active:hover{
-    color: #3C1DBA;   
-    transition: 0.5s;
+    color: #4277FF;
 }
 .navbar a.active{
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #4277FF;
 }
 
 .nav-item a:hover{
-    color: #3C1DBA;   
+    color: #4277FF;   
     transition: 0.5s;
 }
 
@@ -49,7 +44,7 @@ html{
 
 /* Section Home */
 .home{
-    padding-top: 200px;
+    padding-top: 90px;
 }
 .text-boa{
   padding-bottom: 30px;
@@ -75,12 +70,15 @@ html{
     padding: 10px;
     font-weight: bold;
 }
-.home .btn-cont2{
+.home .btn-cont2 {
     background-color: #3C1DBA;
-    color: #ffffff;
     margin-right: 20px;
     padding: 10px;
     font-weight: bold;
+}
+.home .btn-cont2 a {
+    color: #ffffff;
+    text-decoration: none;
 }
 .btn-cont1:hover, .btn-cont2:hover{
     background-color:#4277FF; 
@@ -89,20 +87,55 @@ html{
 .home img {
     width: 450px;
     height: 450px;
-    border-bottom-left-radius: 200px;
     margin-left: 100px;
 
+}
+.modal-header {
+    background-color: #3C1DBA;
+    color: #ffffff;
+}
+.modal-header .btn-close:hover{
+    background-color: #ff0000;
+}
+.modal-footer{
+    background-color: #000000;
+}
+.modal-footer .btn-fechar{
+    background-color: #4277FF;
+    color: #ffffff;
+    padding: 5px;
+    font-weight: normal;
+}
+.modal-footer .btn-fechar:hover{
+    background-color:#ff0000; 
+    transition: 0.5s;
+}
+.modal-footer .btn-enviar{
+    background-color: #4277FF;
+    color: #ffffff;
+    padding: 5px;
+    font-weight: normal;
+}
+.modal-footer .btn-enviar:hover{
+    background-color:#00ff00; 
+    transition: 0.5s;
 }
 
 .container-geral {
     margin-top: 10px;
 }
 .sobre{
-    background-color: #4277FF;
+    background-color: #3C1DBA;
 }
 
 .sobre h2 {
     color: #ffffff;
+}
+#img-sobre{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
 }
 .portfolio{
     background-color: #ffffff;
@@ -128,7 +161,7 @@ html{
     transition: 0.5s;
 }
 .tecnologias{
-    background-color: #4277FF;
+    background-color: #3C1DBA;
 
 }
 .tecnologias h2{

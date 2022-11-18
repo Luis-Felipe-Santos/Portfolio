@@ -22,7 +22,7 @@
                 <nav class="navbar navbar-expand-lg fixed-top">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#home">
-                        <img id="logo-navbar" src="assets/img/logo.png"  alt="logo luis menu">
+                        <img id="logo-navbar" src="assets/img/logo.png" alt="logo luis menu">
                       </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon">
@@ -52,33 +52,63 @@
                   </nav>
         </header>
         <main class="container-geral">
-        <section id="home">
-            <div class="container home d-flex align-items-center h-75 pb-5">
-                <div class="row d-flex align-items-center">
-                    <div class="col-xl-6">
+          <section id="home">
+            <div class="container home d-flex align-items-center">
+               <div class="row d-flex align-items-center">
+                 <div class="col-xl-6 col-sm-12 col-md-6">
                         <h2 class="text-boa">Seja Bem Vindo</h2>
                         <h1 class="text-ola">Olá! Sou o Luis Felipe</h1>
                         <h1 class="text-dev">Desenvolvedor Front-End</h1>
                         <p class="text-dark">Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.</p>
-                        <button class="btn btn-cont1  px-3" >Contato</button>
-                        <button class="btn btn-cont2  px-3">Download CV</button>
-                    </div>
-                    <div class="col-xl-6 d-flex justify-content-end">
-                        <img src="assets/img/lipe.jpg" class="img-fluid" alt="img-home">
+                        <button type="button" class="btn btn-cont1 px-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</button>
+                        <button class="btn btn-cont2 px-3"><a href="assets/docs/Curriculo.pdf" download>Download CV</a></button>
+               
+                       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-4" id="exampleModalLabel">Contato</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                                 <div class="modal-body">
+                                  <form>
+                                    <input type="text" placeholder="Nome" class="form-control mt-4">
+                                    <input type="email" placeholder="Email" class="form-control mt-4">
+                                    <input type="text" placeholder="Assunto" class="form-control mt-4">
+                                   <textarea placeholder="Digite sua mensagem" class="form-control mt-4"></textarea>
+                                  </form>
+                                 </div>
+                                    <div class="modal-footer">
+                                       <button type="button" class="btn btn-fechar" data-bs-dismiss="modal">Fechar</button>
+                                       <button type="button" class="btn btn-enviar">Enviar</button>
+                                    </div>
+                            </div>
+                         </div>
+                      </div>
+                  </div>
+                    <div class="col-xl-6 d-flex justify-content-end pt-5">
+                        <img src="assets/img/lipe2.png" class="img-fluid" alt="img-home">
                     </div>
                 </div>
             </div> 
         </section>
-        <section id="sobre">
-            <div class="container sobre mb-5 pt-3 pb-5">
+
+        <section  id="sobre">
+            <div class="container col-xl-12 sobre mb-5 pb-3">
               <h2 class="text-center pt-5 pb-3">Sobre</h2>
-              <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-              <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="container col-xl-6 d-flex justify-content-center">
+                    <img class="img-fluid" id="img-sobre" src="assets/img/lipe.jpg" alt="">
+                    <div class="container col-xl-6 d-flex justify-content-end">
+                    </div>
+               </div>
             </div>
+      
         </section>
+
         <section id="portfolio">
-          <div class="container portfolio mb-5 pb-5 pt-3">
+          <div class="container portfolio mb-5 pb-5 pt-5">
             <h2 class="text-center pb-3">Portfolio</h2>
+            <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <div class="row">
               <div class="col-xl-4 cards">
@@ -116,14 +146,19 @@
             </div>
            </div>
         </section>
+
         <section id="tecnologias">
-            <div class="container tecnologias mb-5 pb-5 pt-3">
+            <div class="container tecnologias mb-5 pb-5 pt-5">
               <h2 class="text-center pb-3">Tecnologias</h2>
+              <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
               <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </section>
+
         <section id="contato">
-          <div class="container contato mb-5 pb-5 pt-3">
+          <div class="container contato mb-5 pb-5 pt-5">
             <h2 class="text-center pb-3">Contato</h2>
             <form class="form">
               <div class="text-form-nome">
@@ -153,9 +188,13 @@
               </div>
               <button type="submit" class="btn btn-form">Enviar</button>
             </form>
+            <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p class="d-flex mx-auto text-center w-75 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
         </section>
         </main>
+
         <footer class="footer" id="footer">
               <span class="text-rodape d-flex justify-content-center pt-4 pb-3">&copy; 2022 Luis Felipe dos Santos - Todos os direitos reservados.</span>
               <div class="redes d-flex justify-content-center pb-3">
