@@ -127,7 +127,6 @@ html{
 .sobre{
     background-color: #3C1DBA;
 }
-
 .sobre h2 {
     color: #ffffff;
 }
@@ -135,7 +134,15 @@ html{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+.sobre .card{
+    width: 400px;
+    height: 700px;
+    margin-bottom: 10px;
+}
 
+.sobre .lead{
+    color: #ffffff;
 }
 .portfolio{
     background-color: #ffffff;
