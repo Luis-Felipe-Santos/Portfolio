@@ -52,16 +52,16 @@
                   </nav>
         </header>
         <main class="container-geral">
-          <section id="home">
+        <section id="home">
             <div class="container home">
-               <div class="row d-flex align-items-center">
-                 <div class="col-xl-6 col-sm-12 col-md-6">
+               <div class="row d-flex justify-content-center">
+                 <div class="col-xl-6 col-md-12 text-center pt-5">
                         <h2 class="text-boa">Seja Bem Vindo</h2>
                         <h1 class="text-ola">Olá! Sou o Luis Felipe</h1>
                         <h1 class="text-dev">Desenvolvedor Front-End</h1>
                         <p class="text-dark">Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.</p>
                         <button type="button" class="btn btn-cont1 px-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</button>
-                        <button class="btn btn-cont2 px-3"><a href="assets/docs/Curriculo.pdf" download>Download CV</a></button>
+                        <button type="button" class="btn btn-cont2 px-3"><a href="assets/docs/Curriculo.pdf" download>Download CV</a></button>
                
                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                           <div class="modal-dialog modal-dialog-centered">
@@ -86,17 +86,17 @@
                          </div>
                       </div>
                   </div>
-                    <div class="col-xl-6 d-flex justify-content-end pt-3 col-md-6 d-flex justify-content-end pt-1">
+                    <div class="col-xl-6 d-flex justify-content-end pt-3 col-md-12 d-flex justify-content-center pt-1">
                         <img src="assets/img/lipe2.png" class="img-fluid" alt="img-home">
                     </div>
                 </div>
             </div> 
         </section>
 
-        <section  id="sobre">
+        <section id="sobre">
             <div class="container col-xl-12 sobre mb-5 pb-3">
               <h2 class="text-center pt-5 pb-3">Sobre</h2>
-              <div class="row d-flex align-items-center">
+              <div class="row d-flex justify-content-center">
                 <div class="container col-xl-6 d-flex justify-content-center">
                   <img class="img-fluid" id="img-sobre" src="assets/img/lipe.jpg" alt="">
               </div>
@@ -109,9 +109,9 @@
                       na parte de Front-End. Estou cursando Pós graduação na área de Desenvolvimento Web, onde busco adquirir ainda mais conhecimento na área.
                       Mais abaixo tem mais algumas informações sobre minha formação e atuação profissional.
                     </p>
-                    <h2 class="text-center pt-5 pb-3">Formação</h2>
-                    <div class="row">
-                      <div class="col-lg-4 col-xl-4 cards">
+                    <div class="row d-flex align-items-center">
+                      <h2 class="text-center pt-5 pb-3">Formação</h2>
+                      <div class="cards d-flex justify-content-center col-lg-6 col-xxl-4 col-xl-6 col-md-12">
                         <div class="card" id="card-prona">
                           <img src="assets/img/pronatec.png" class="card-img-top" alt="...">
                           <div class="card-body">
@@ -123,7 +123,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-lg-4 col-xl-4 col-md-6 cards">
+                      <div class="cards d-flex justify-content-center col-lg-6 col-xxl-4 col-xl-6 col-md-12">
                         <div class="card" id="card-if">
                           <img src="assets/img/ifmachado2.png"  class="card-img-top" alt="...">
                           <div class="card-body">
@@ -135,7 +135,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-4 cards">
+                    <div class="cards d-flex justify-content-center col-lg-12 col-xxl-4 col-xl-12 col-md-12">
                       <div class="card" id="card-puc" >
                         <img src="assets/img/puc.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -145,10 +145,39 @@
                           <p class="card-text text-center mb-3">2022 - 2024</p>
                           <button class="btn btn-card1 mx-auto px-4" disabled>Cursando</button>
                         </div>
-                  </div>
-              </div>
-              </div>
-         </section>
+                      </div>
+                    </div>
+                 </div>
+                 <div class="row d-flex align-items-center">
+                  <div class="container col-xl-12 col-md-12 col-sm-12  text-center">
+                    <h2 class="text-center pt-5 pb-3">Atuação profissional</h2>
+                    <div class="row">
+                      <div class="col-lg-6 col-xl-6 col-md-6 cards">
+                        <h5 class="card-title-at text-center my-3">Supermercado Vale Sul</h5>
+                        <p class="card-text-at text-center mb-2">2016 / 2017</p>
+                        <p class="card-text-at text-center mb-2">Função: Repositor e Caixa</p>
+                      </div>
+                      <div class="col-lg-6 col-xl-6 col-md-6 cards">
+                        <h5 class="card-title-at text-center my-3">Agente Censitario Supervisor</h5>
+                        <p class="card-text-at text-center mb-2">2018 / 2019</p>
+                        <p class="card-text-at text-center mb-2">Função: Treinar e supervisionar os recenseadores e seus trabalhos em campos, criar planilhas em cima de dados coletados pelos mesmos.</p>
+                      </div>
+                    </div>
+                    <div class="row pt-5">
+                      <div class="col-lg-6 col-xl-6 col-md-6 cards">
+                        <h5 class="card-title-at text-center my-3">Estagiário Prefeitura Municipal de Poço Fundo</h5>
+                        <p class="card-text-at text-center mb-2">2019 / 2021</p>
+                        <p class="card-text-at text-center mb-2">Função: Atuei no Fórum da Comarca de Poço Fundo, fazendo as rotinas do Juizado Especial Cível e ajudando os servidores com suporte em informática.</p>
+                      </div>
+                      <div class="col-lg-6 col-xl-6 col-md-6  cards">
+                        <h5 class="card-title-at text-center my-3">Escrevente no Tabelionato de Protesto de Titulos de Poço Fundo</h5>
+                        <p class="card-text-at text-center mb-2">2021 / Atualmente</p>
+                        <p class="card-text-at text-center mb-2">Função: Treinar e supervisionar os recenseadores e seus trabalhos em campos, criar planilhas em cima de dados coletados pelos mesmos.</p>
+                      </div>
+                    </div>
+                 </div>
+                 </div>
+        </section>
 
         <section id="portfolio">
           <div class="container portfolio mb-5 pb-5 pt-5">
@@ -239,7 +268,6 @@
           </div>
         </section>
         </main>
-
         <footer class="footer" id="footer">
               <span class="text-rodape d-flex justify-content-center pt-4 pb-3">&copy; 2022 Luis Felipe dos Santos - Todos os direitos reservados.</span>
               <div class="redes d-flex justify-content-center pb-3">

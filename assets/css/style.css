@@ -87,7 +87,7 @@ html{
 .home img {
     width: 450px;
     height: 450px;
-    margin-left: 100px;
+    margin-left: 20px;
 
 }
 .modal-header {
@@ -124,6 +124,8 @@ html{
 .container-geral {
     margin-top: 10px;
 }
+
+/* Section Sobre */
 .sobre{
     background-color: #3C1DBA;
 }
@@ -138,12 +140,18 @@ html{
 .sobre .card{
     width: 400px;
     height: 700px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .sobre .lead{
     color: #ffffff;
 }
+
+.sobre .card-title-at, .card-text-at{
+    color: #ffffff;
+}
+
+/* Section Portfólio*/
 .portfolio{
     background-color: #ffffff;
 }
@@ -167,6 +175,7 @@ html{
     background-color:#4277FF; 
     transition: 0.5s;
 }
+/* Section Tecnologias*/
 .tecnologias{
     background-color: #3C1DBA;
 
@@ -175,6 +184,7 @@ html{
     color: #ffffff;
 
 }
+/* Section Contato*/
 .contato{
     background-color: #ffffff;
 
@@ -193,6 +203,8 @@ html{
 .form #form-nome, #form-email, #form-telefone, #Textarea {
     min-width: 300px;
   }
+
+/* Section Rodapé*/
 footer {
     background-color: #000000;
 }
