@@ -138,9 +138,14 @@ html{
     border-radius: 50%;
 }
 .sobre .card{
-    width: 400px;
-    height: 700px;
+    width: 500px;
+    height: 100%;
     margin-bottom: 20px;
+}
+.sobre .card:hover{
+    border-color: #4277FF;
+    border-width: medium;
+    transition: 0.5s;
 }
 
 .sobre .lead{
@@ -150,13 +155,25 @@ html{
 .sobre .card-title-at, .card-text-at{
     color: #ffffff;
 }
+.sobre img{
+    height: 300px;
+    width: 100%;
+}
+
 
 /* Section Portfólio*/
 .portfolio{
     background-color: #ffffff;
 }
 .portfolio h2{
-  color: #000000;
+    color: #000000;
+}
+
+.portfolio img:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+     transform: scale(1.2);
+      
 }
 .portfolio .btn-card1{
     background-color: #3C1DBA;
