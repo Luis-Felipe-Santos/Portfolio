@@ -132,6 +132,11 @@ html{
 .sobre h2 {
     color: #ffffff;
 }
+.sobre hr {
+    
+    background-color: #ffffff;
+    
+    }
 #img-sobre{
     width: 200px;
     height: 200px;
@@ -142,11 +147,6 @@ html{
     height: 100%;
     margin-bottom: 20px;
 }
-.sobre .card:hover{
-    border-color: #4277FF;
-    border-width: medium;
-    transition: 0.5s;
-}
 
 .sobre .lead{
     color: #ffffff;
@@ -156,6 +156,7 @@ html{
     color: #ffffff;
 }
 .sobre img{
+    padding-top: 10px;
     height: 300px;
     width: 100%;
 }
@@ -167,6 +168,9 @@ html{
 }
 .portfolio h2{
     color: #000000;
+}
+.portfolio .card{
+    border: none;
 }
 
 .portfolio img:hover{
@@ -181,25 +185,32 @@ html{
     padding: 10px;
     font-weight: bold;
 }
-.portfolio .btn-card2{
-    background-color: #3C1DBA;
+.portfolio .btn-card1 a{    
     color: #ffffff;
-    margin-right: 20px;
-    padding: 10px;
-    font-weight: bold;
+    text-decoration: none;
 }
+
 .btn-card1:hover, .btn-card2:hover{
     background-color:#4277FF; 
     transition: 0.5s;
 }
-/* Section Tecnologias*/
-.tecnologias{
+.accordion-button{
     background-color: #3C1DBA;
-
-}
-.tecnologias h2{
     color: #ffffff;
-
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.portfolio ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.portfolio ul li a:hover{
+    font-weight: bold;
+    color:#4277FF; 
 }
 /* Section Contato*/
 .contato{
