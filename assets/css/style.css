@@ -214,14 +214,32 @@ html{
 }
 /* Section Contato*/
 .contato{
-    background-color: #ffffff;
+    background-color: #4277FF;
 
 }
 .contato h2{
-    color: #000000;
+    color: #ffffff;
+}
+.contato .text-form-nome{
+    color: #ffffff;
+}
+.contato .text-form-email{
+    color: #ffffff;
+}
+.contato .form-text{
+    color: #ffffff;
+    font-size: 12px;
+    font-style: italic;
+}
+.contato .form-label{
+    color: #ffffff;
+}
+.endereco p{
+    color: #ffffff;
+    font-size: 16px;
 }
 
-.contato .btn-form{
+.form .btn-form{
     background-color: #3C1DBA;
     color: #ffffff;
     margin-right: 20px;
@@ -231,6 +249,19 @@ html{
 .form #form-nome, #form-email, #form-telefone, #Textarea {
     min-width: 300px;
   }
+.contato .redes ul li {
+    list-style: none;
+}
+h3{
+    color: #ffffff;
+}
+.contato .redes ul li a {
+   text-decoration: none;
+   color: #ffffff;
+}
+.contato .redes ul li a:hover {
+    color: #3C1DBA;
+ }
 
 /* Section Rodapé*/
 footer {
