@@ -11,10 +11,8 @@ html{
     width: 60px;
     height: 70px;
 }
-
 .navbar{
     background-color: #000000;
-  
 }
 .navbar a{
     color: #ffffff;
@@ -26,12 +24,10 @@ html{
 .navbar a.active{
     border-bottom: 1px solid #4277FF;
 }
-
 .nav-item a:hover{
     color: #4277FF;   
     transition: 0.5s;
 }
-
 .navbar-nav{
     padding-right: 50px;
 }
@@ -42,7 +38,6 @@ html{
     color: #ffffff;
     font-size: 28px;
 }
-
 /* Section Home */
 .home{
     padding-top: 90px;
@@ -120,7 +115,6 @@ html{
     background-color:#00ff00; 
     transition: 0.5s;
 }
-
 .container-geral {
     margin-top: 10px;
 }
@@ -174,8 +168,6 @@ html{
     height: 300px;
     width: 100%;
 }
-
-
 /* Section Portfólio*/
 .portfolio{
     background-color: #ffffff;
@@ -186,12 +178,10 @@ html{
 .portfolio .card{
     border: none;
 }
-
 .portfolio img:hover{
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
-     transform: scale(1.2);
-      
+     transform: scale(1.2);    
 }
 .portfolio .btn-card1{
     background-color: #3C1DBA;
@@ -203,7 +193,6 @@ html{
     color: #ffffff;
     text-decoration: none;
 }
-
 .btn-card1:hover, .btn-card2:hover{
     background-color:#4277FF; 
     transition: 0.5s;
@@ -217,7 +206,7 @@ html{
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
 .portfolio ul li a{
     text-decoration: none;
     color: #000000;
@@ -229,7 +218,6 @@ html{
 /* Section Contato*/
 .contato{
     background-color: #4277FF;
-
 }
 .contato h2{
     color: #ffffff;
@@ -287,7 +275,6 @@ footer {
 }
 .footer .text-rodape{
     color: #ffffff;
-
 }
 .redes {
     font-size: 22px;
