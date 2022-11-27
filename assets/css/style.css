@@ -9,11 +9,12 @@ html{
 /* Barra de navegação */
 #logo-navbar {
     width: 60px;
-    margin-left: 200px;
+    height: 70px;
 }
 
 .navbar{
     background-color: #000000;
+  
 }
 .navbar a{
     color: #ffffff;
@@ -132,11 +133,6 @@ html{
 .sobre h2 {
     color: #ffffff;
 }
-.sobre hr {
-    
-    background-color: #ffffff;
-    
-    }
 #img-sobre{
     width: 200px;
     height: 200px;
@@ -147,7 +143,26 @@ html{
     height: 100%;
     margin-bottom: 20px;
 }
-
+.sobre .card .btn-prona{
+   background-color: #4277FF;
+}
+.sobre .card .btn-prona a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sobre .card .btn-if{
+    background-color: #4277FF;
+ }
+.sobre .card .btn-if a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sobre .card .btn-prona a:hover{
+    color: #3C1DBA;
+}
+.sobre .card .btn-if a:hover{
+    color: #3C1DBA;
+}
 .sobre .lead{
     color: #ffffff;
 }
@@ -240,11 +255,15 @@ html{
 }
 
 .form .btn-form{
-    background-color: #3C1DBA;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #3C1DBA;
     margin-right: 20px;
     padding: 10px;
     font-weight: bold;
+}
+.form .btn-form:hover{
+    background-color: #3C1DBA;
+    color: #ffffff;
 }
 .form #form-nome, #form-email, #form-telefone, #Textarea {
     min-width: 300px;
