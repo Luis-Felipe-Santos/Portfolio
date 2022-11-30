@@ -241,18 +241,18 @@ html{
     font-size: 16px;
 }
 
-.form .btn-form{
+#form .btn-form{
     background-color: #ffffff;
     color: #3C1DBA;
     margin-right: 20px;
     padding: 10px;
     font-weight: bold;
 }
-.form .btn-form:hover{
+#form .btn-form:hover{
     background-color: #3C1DBA;
     color: #ffffff;
 }
-.form #form-nome, #form-email, #form-telefone, #Textarea {
+#form #nome_usuario, #email_usuario, #telefone_usuario, #mensagem_usuario {
     min-width: 300px;
   }
 .contato .redes ul li {
