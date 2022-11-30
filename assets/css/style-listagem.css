@@ -14,8 +14,11 @@ html{
     width: 80px;
     height: 100px;
 }
+.container-geral h2{
+    color: #000000;
+}
 .tabela{
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 .footer {
