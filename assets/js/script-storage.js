@@ -9,6 +9,11 @@
     formCont.addEventListener("submit", (e) => {
     //Não recarrega a página
     e.preventDefault();
+    //limpa os inputs do form quando é submetido
+    nome_usuario.value = '';
+    email_usuario.value = '';
+    telefone_usuario.value ='';
+    mensagem_usuario.value = '';
     });
 
     enviarBtn.addEventListener("click", (e) => {
@@ -39,6 +44,7 @@
 
         
       });
+      
     // clicando no modal mensagens
     btnModal.addEventListener("click", (e) => {
       if (localStorage.hasOwnProperty("contatos")) {
