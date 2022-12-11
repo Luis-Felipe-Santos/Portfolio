@@ -49,7 +49,7 @@
                             <a class="nav-link" href="#contato">Contato</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMensagens">
+                            <a class="nav-link" id="openModal" button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMensagens">
                               Mensagens
                             </button></a>
                           </li>
@@ -402,9 +402,6 @@
                     </div>
                     <button type="submit" class="btn btn-form btn-sm" id="enviar">Enviar</button>
                     <button id="cancelar" class="btn btn-form btn-sm">Cancelar</button>
-                    <button id="btn-msg" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMensagens">
-                      Mensagens
-                    </button>
                   </form>     
                   <div class="modal fade" id="modalMensagens" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
