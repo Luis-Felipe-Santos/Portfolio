@@ -49,7 +49,9 @@
                             <a class="nav-link" href="#contato">Contato</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="pagina-listagem.html " target="_blank">Mensagens</a>
+                            <a class="nav-link" button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMensagens">
+                              Mensagens
+                            </button></a>
                           </li>
                         </ul>
                       </div>
@@ -80,7 +82,7 @@
                                   <form>
                                     <input type="text" placeholder="Nome" class="form-control mt-4">
                                     <input type="email" placeholder="Email" class="form-control mt-4">
-                                    <input type="text" placeholder="Assunto" class="form-control mt-4">
+                                    <input type="tel" placeholder="Telefone" class="form-control mt-4">
                                    <textarea placeholder="Digite sua mensagem" class="form-control mt-4"></textarea>
                                   </form>
                                  </div>
@@ -374,32 +376,53 @@
                 <div class="container col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
                   <form id="form">
                     <div class="text-form-nome">
-                      <label for="nome">Nome</label>
+                      <label for="dado">Nome</label>
                     </div>
                     <div class="campo-form-nome">
                       <input type="text" class="form-control-sm" id="nome_usuario" placeholder="Digite seu nome">
                     </div>
                     <div class="text-form-email">
-                      <label for="exampleInputEmail1">Email</label>
+                      <label for="dado">Email</label>
                     </div>
                     <div class="campo-form-email">
                       <input type="email" class="form-control-sm" id="email_usuario" placeholder="Seu email">
                       <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com ninguém.</div>
                     </div>
                     <div class="text-form-telefone">
-                      <label for="telefone" class="form-label">Telefone</label>
+                      <label for="dado" class="form-label">Telefone</label>
                     </div>
                     <div class="campo-form-telefone">
-                      <input type="text" class="form-control-sm" id="telefone_usuario">
+                      <input type="tel" class="form-control-sm" id="telefone_usuario">
                     </div>
                     <div>
-                      <label for="Textarea" class="form-label">Mensagem</label>
+                      <label for="dado" class="form-label">Mensagem</label>
                     </div>
                     <div>
                       <textarea class="form-control-lg" id="mensagem_usuario"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-form btn-sm">Enviar</button>
-                  </form>
+                    <button type="submit" class="btn btn-form btn-sm" id="enviar">Enviar</button>
+                    <button id="cancelar" class="btn btn-form btn-sm">Cancelar</button>
+                    <button id="btn-msg" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMensagens">
+                      Mensagens
+                    </button>
+                  </form>     
+                  <div class="modal fade" id="modalMensagens" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Mensagens</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                        <div class="modal-body">
+                          <span id="mensagens"></span>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                          <button type="button" class="btn btn-primary" id="clear">Limpar Mensagens</button>
+                        </div>
+                    </div>
+                  </div>
+                  </div>   
                 </div>
                 <div class="redes col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
                   <h3 class="text-center pt-5">Redes Sociais</h3>
@@ -452,7 +475,6 @@
     <script src="assets/js/script-text.js">
 
     </script>
-    <script src="assets/js/script-storage.js">
-    </script>
+    <script src="assets/js/script-storage.js"></script>
   </body>
 </html>
