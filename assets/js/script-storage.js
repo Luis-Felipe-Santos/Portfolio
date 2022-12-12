@@ -2,18 +2,21 @@
     const formCont = document.getElementById("form");
     const enviarBtn = document.getElementById("enviar"); 
     const cancelarBtn = document.getElementById("cancelar"); 
-    const modalCont = document.getElementById("modalMensagens");
     const limparBtn = document.getElementById("clear"); 
     const btnModal = document.getElementById("openModal");
 
+
     formCont.addEventListener("submit", (e) => {
-    //Não recarrega a página
-    e.preventDefault();
-    //limpa os inputs do form quando é submetido
-    nome_usuario.value = '';
-    email_usuario.value = '';
-    telefone_usuario.value ='';
-    mensagem_usuario.value = '';
+
+         //Não recarrega a página
+        e.preventDefault();
+        
+        //limpa os inputs do form quando é submetido
+        nome_usuario.value = '';
+        email_usuario.value = '';
+        telefone_usuario.value ='';
+        mensagem_usuario.value = '';
+       
     });
 
     enviarBtn.addEventListener("click", (e) => {
@@ -27,10 +30,10 @@
       
         //Verifica se existe a proriedade no localStorage
         if (localStorage.hasOwnProperty("contatos")) {
-          //Converte string em objeto
-          contatos = JSON.parse(localStorage.getItem("contatos"));
+        //Converte string em objeto
+        contatos = JSON.parse(localStorage.getItem("contatos"));
         }
-      
+
         //Adiciona um novo objeto no array criado
         contatos.push({
           nome_usuario,
@@ -41,13 +44,12 @@
       
         //Salva os dados no localStorage e converte o objeto em string
         localStorage.setItem("contatos", JSON.stringify(contatos));
-
-        
+        alert("Mensagem enviada com sucesso");
       });
       
-    // clicando no modal mensagens
+    //Clicando no modal mensagens e recuperando os dados do LocalStorage
     btnModal.addEventListener("click", (e) => {
-      if (localStorage.hasOwnProperty("contatos")) {
+        if (localStorage.hasOwnProperty("contatos")) {
         contatos = JSON.parse(localStorage.getItem("contatos"));
     
         let mensagemItens = document.getElementById("mensagens");
@@ -77,7 +79,7 @@
       }
     });
 
-
+    //Limpar os dados dos inputs no botao cancelar
     cancelarBtn.addEventListener('click', (e) => {
         nome_usuario.value = '';
         email_usuario.value = '';
@@ -85,6 +87,7 @@
         mensagem_usuario.value = '';
     });
 
+    //Excluir todas as mensagens no LocalStorage e Html
     limparBtn.addEventListener('click', (e) => {
         if(localStorage.hasOwnProperty("contatos")){
             var x;
@@ -102,7 +105,8 @@
             return;
         }
     });
-  
+
+   
 
     
 
